@@ -2,3 +2,33 @@ body{
 	background-color: black;
 	color: white;
 }
+a{
+	color: black;
+	padding: 2%;
+	margin: 1%;
+}
+#toolbar{
+	display: flex;
+	align-items: center;
+	background-color: white;
+	color: black;
+	height: 25%;
+	padding: 2%;
+}
+#links{
+	flex-grow: 1;
+}
+/*#twitter-tweet{
+	width: 33%;
+}*/
+.grid-container{
+	display: grid;
+	margin: 3%;
+	border: solid white 2px;
+}
+.grid-item{
+	display: grid;
+	border: solid blue 2px;
+	height: auto;
+	width: auto;
+}
